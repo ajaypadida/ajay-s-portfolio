@@ -1,0 +1,13 @@
+HOW TO ADD YOUR PROFILE IMAGE:
+
+1. Find your profile photo on your computer
+2. Copy it to the "images" folder
+3. Rename it to "profile.jpg"
+4. Open index.html in your browser
+
+That's it! Your photo will appear automatically.
+
+If you need help:
+- Make sure the image is named exactly "profile.jpg"
+- Put it in the "images" folder
+- The image should be square (like 300x300 pixels) for best results 

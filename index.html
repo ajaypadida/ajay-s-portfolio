@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+  <canvas id="cubes-bg"></canvas>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+              <div class="hero-text">
+          <h1>I'm AJAY PADIDA</h1>
+          <p>I'm a <span id="dynamic-text">Data Science Enthusiast</span></p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">Get In Touch</a>
+            <a href="#projects" class="btn-secondary">View Projects</a>
+            <a href="resume.html" class="btn-secondary" target="_blank">View Resume</a>
+          </div>
+        </div>
+      <div class="hero-image">
+        <div class="profile-image-container">
+          <img src="images/profile.jpg" alt="AJAY PADIDA" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="profile-placeholder" style="display: none;">
+            <div class="placeholder-icon">👨‍💻</div>
+            <p>PADIDA AJAY</p>
+            <div class="profile-instructions">
+              <small>Add your photo to images/profile.jpg</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>I'm an aspiring Data Scientist and Machine Learning Engineer with hands-on experience in Python programming, statistical analysis, and AI-driven problem-solving. I'm passionate about contributing to innovative, data-driven solutions and have expertise in real-world applications including NLP, data visualization, and predictive modeling.</p>
+        <div class="education">
+          <h3>Education</h3>
+          <div class="education-item">
+            <h4>TKR College of Engineering and Technology (TKRC), Hyderabad</h4>
+            <p>Bachelor of Technology (B.Tech) in Computer Science Engineering</p>
+            <span class="cgpa">CGPA: 6.50 (2022-2026)</span>
+          </div>
+          <div class="education-item">
+            <h4>Sri Chaitanya Junior College, Hyderabad</h4>
+            <p>Intermediate (MPC) - 77% (2020-2022)</p>
+          </div>
+          <div class="education-item">
+            <h4>Brooklyn Grammar High School, Metpally</h4>
+            <p>Secondary School Certificate (SSC) - 100% (2019-2020)</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:ajaypadida7@gmail.com">ajaypadida7@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <a href="tel:+918919832684">(+91) 89198-32684</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="http://linkedin.com/in/ajay-padida" target="_blank">LinkedIn</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/ajaypadida" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Expertise</h2>
+    
+    <!-- Floating Technology Logos -->
+    <div class="floating-logos">
+      <div class="logo-item" data-tooltip="Python">
+        <i class="fab fa-python"></i>
+      </div>
+      <div class="logo-item" data-tooltip="HTML5">
+        <i class="fab fa-html5"></i>
+      </div>
+      <div class="logo-item" data-tooltip="CSS3">
+        <i class="fab fa-css3-alt"></i>
+      </div>
+      <div class="logo-item" data-tooltip="JavaScript">
+        <i class="fab fa-js-square"></i>
+      </div>
+      <div class="logo-item" data-tooltip="GitHub">
+        <i class="fab fa-github"></i>
+      </div>
+      <div class="logo-item" data-tooltip="React">
+        <i class="fab fa-react"></i>
+      </div>
+      <div class="logo-item" data-tooltip="Node.js">
+        <i class="fab fa-node-js"></i>
+      </div>
+      <div class="logo-item" data-tooltip="Database">
+        <i class="fas fa-database"></i>
+      </div>
+      <div class="logo-item" data-tooltip="AI/ML">
+        <i class="fas fa-brain"></i>
+      </div>
+      <div class="logo-item" data-tooltip="Cloud">
+        <i class="fas fa-cloud"></i>
+      </div>
+    </div>
+    
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <div class="skill-list">
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Libraries & Frameworks</h3>
+        <div class="skill-list">
+          <span>Pandas</span>
+          <span>NumPy</span>
+          <span>Scikit-Learn</span>
+          <span>TensorFlow</span>
+          <span>Keras</span>
+          <span>Matplotlib</span>
+          <span>Seaborn</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Tools & Technologies</h3>
+        <div class="skill-list">
+          <span>SQL</span>
+          <span>Power BI</span>
+          <span>Git</span>
+          <span>VS Code</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Domains</h3>
+        <div class="skill-list">
+          <span>Machine Learning</span>
+          <span>Deep Learning</span>
+          <span>Generative AI</span>
+          <span>NLP</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Soft Skills</h3>
+        <div class="skill-list">
+          <span>Adaptability</span>
+          <span>Communication</span>
+          <span>Teamwork</span>
+          <span>Time Management</span>
+          <span>Quick Learner</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects & Experience</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <div class="project-header">
+          <h3>AI-Powered Drug Recommendation System</h3>
+          <span class="project-date">June 2025</span>
+        </div>
+        <p>Designed a recommendation engine using NLP and Reinforcement Learning. Integrated voice input and image recognition for pill identification. Ensured user data privacy with secure logic for accurate drug suggestions.</p>
+        <div class="project-tech">
+          <span>NLP</span>
+          <span>Reinforcement Learning</span>
+          <span>Image Recognition</span>
+        </div>
+        <a href="#" target="_blank" class="project-link">View Project</a>
+      </div>
+      
+      <div class="project-card internship">
+        <div class="project-header">
+          <h3>Data Science Intern - Oasis Infobyte</h3>
+          <span class="project-date">June 2025</span>
+        </div>
+        <ul class="project-achievements">
+          <li>Built a spam detection model using Logistic Regression, improving email filtering accuracy to 97.76%</li>
+          <li>Performed data cleaning and preprocessing using NLP techniques</li>
+          <li>Built classification models using K-Nearest Neighbors (KNN) and Decision Trees</li>
+          <li>Created data visualizations using Matplotlib and Seaborn</li>
+        </ul>
+        <div class="project-tech">
+          <span>Logistic Regression</span>
+          <span>KNN</span>
+          <span>Decision Trees</span>
+          <span>NLP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Name" required/>
+      <input type="email" placeholder="Email" required/>
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications-container">
+      <div class="cert-card">
+        <h3>Kaggle Deep Learning Badge</h3>
+        <p>Advanced deep learning techniques and neural networks</p>
+      </div>
+      <div class="cert-card">
+        <h3>Kaggle Machine Learning Certificate</h3>
+        <p>Comprehensive machine learning algorithms and applications</p>
+      </div>
+      <div class="cert-card">
+        <h3>IBM Prompt Engineering Certificate</h3>
+        <p>Expertise in AI prompt engineering and optimization</p>
+      </div>
+      <div class="cert-card">
+        <h3>Generative AI Training Program Workshop</h3>
+        <p>Hands-on experience with generative AI technologies</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 PADIDA AJAY. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
